@@ -41,7 +41,7 @@ group :development, :test do
   gem "rspec_junit_formatter"
 end
 
-group :development, :test do
+group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 4.1.0'
   # Display performance information such as SQL time and flame graphs for each request in your browser.
